@@ -1,0 +1,120 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=4380, tid=4648
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_79-b15) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.79-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002971000):  JavaThread "Unknown thread" [_thread_in_vm, id=4648, stack(0x0000000002800000,0x0000000002900000)]
+
+Stack: [0x0000000002800000,0x0000000002900000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002971000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4648, stack(0x0000000002800000,0x0000000002900000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.010 loading class 0x00000000029b73e0 done
+Event: 0.010 loading class 0x00000000029b6de0 done
+Event: 0.010 loading class 0x00000000029b6dc0
+Event: 0.010 loading class 0x00000000029bef70
+Event: 0.010 loading class 0x00000000029bef70 done
+Event: 0.010 loading class 0x00000000029befa0
+Event: 0.010 loading class 0x00000000029befa0 done
+Event: 0.010 loading class 0x00000000029befd0
+Event: 0.010 loading class 0x00000000029befd0 done
+Event: 0.010 loading class 0x00000000029b6dc0 done
+
+
+Dynamic libraries:
+0x00007ff6acf20000 - 0x00007ff6acf53000 	C:\Program Files\Java\jdk1.7.0_79\bin\javaw.exe
+0x00007ffca3180000 - 0x00007ffca332c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffca09c0000 - 0x00007ffca0afe000 	C:\Windows\system32\KERNEL32.DLL
+0x00007ffca06e0000 - 0x00007ffca07f5000 	C:\Windows\system32\KERNELBASE.dll
+0x00007ffc9e870000 - 0x00007ffc9e8fe000 	C:\Windows\system32\apphelp.dll
+0x00007ffc93c20000 - 0x00007ffc93c73000 	C:\Windows\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ffca2e30000 - 0x00007ffca2eda000 	C:\Windows\system32\msvcrt.dll
+0x00007ffca00a0000 - 0x00007ffca00ce000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x00007ffca0c80000 - 0x00007ffca0cd4000 	C:\Windows\system32\SHLWAPI.dll
+0x00007ffca0b00000 - 0x00007ffca0c77000 	C:\Windows\system32\USER32.dll
+0x00007ffca0da0000 - 0x00007ffca0f34000 	C:\Windows\system32\ole32.dll
+0x00007ffca0fb0000 - 0x00007ffca24db000 	C:\Windows\system32\SHELL32.dll
+0x00007ffc9f870000 - 0x00007ffc9f891000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ffca24e0000 - 0x00007ffca258a000 	C:\Windows\system32\ADVAPI32.dll
+0x00007ffc9d9c0000 - 0x00007ffc9d9de000 	C:\Windows\SYSTEM32\MPR.dll
+0x00007ffca2f40000 - 0x00007ffca3081000 	C:\Windows\system32\RPCRT4.dll
+0x00007ffca0800000 - 0x00007ffca0859000 	C:\Windows\SYSTEM32\sechost.dll
+0x00007ffca28d0000 - 0x00007ffca2ae1000 	C:\Windows\SYSTEM32\combase.dll
+0x00007ffca2af0000 - 0x00007ffca2c3f000 	C:\Windows\system32\GDI32.dll
+0x00007ffca02d0000 - 0x00007ffca02e5000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007ffc9e2a0000 - 0x00007ffc9e352000 	C:\Windows\SYSTEM32\SHCORE.dll
+0x00007ffca2df0000 - 0x00007ffca2e26000 	C:\Windows\system32\IMM32.DLL
+0x00007ffca2770000 - 0x00007ffca28c2000 	C:\Windows\system32\MSCTF.dll
+0x00007ffc9d290000 - 0x00007ffc9d50b000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.18006_none_623f33d3ecbe86e8\COMCTL32.dll
+0x00000000658e0000 - 0x00000000659b2000 	C:\Program Files\Java\jdk1.7.0_79\jre\bin\msvcr100.dll
+0x00000000659c0000 - 0x0000000066195000 	C:\Program Files\Java\jdk1.7.0_79\jre\bin\server\jvm.dll
+0x00007ffc9dd40000 - 0x00007ffc9dd49000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffc931c0000 - 0x00007ffc931e2000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffca0fa0000 - 0x00007ffca0fa7000 	C:\Windows\system32\PSAPI.DLL
+0x00007ffca0f40000 - 0x00007ffca0f9a000 	C:\Windows\system32\WS2_32.dll
+0x00007ffc93190000 - 0x00007ffc931ba000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ffca0870000 - 0x00007ffca0879000 	C:\Windows\system32\NSI.dll
+0x00007ffca0580000 - 0x00007ffca05cf000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x00007ffc9f0d0000 - 0x00007ffc9f0f8000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x00000000658d0000 - 0x00000000658df000 	C:\Program Files\Java\jdk1.7.0_79\jre\bin\verify.dll
+0x00000000658a0000 - 0x00000000658c8000 	C:\Program Files\Java\jdk1.7.0_79\jre\bin\java.dll
+0x0000000065880000 - 0x0000000065895000 	C:\Program Files\Java\jdk1.7.0_79\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:D:\AndroidSDK\SDK\platforms\android-22\android.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 49854 -testLoaderClass org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestLoader -loaderpluginname org.eclipse.jdt.junit.runtime -classNames com.example.triangle.test.TriangleTest
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_79
+PATH=C:/Program Files/Java/jdk1.7.0_79/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Software\eclipse-jee-luna-SR2-win32-x86_64\eclipse;
+USERNAME=dien.tv
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, tsc, tscinvbit
+
+Memory: 4k page, physical 3907900k(1712736k free), swap 4956476k(2450204k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.79-b02) for windows-amd64 JRE (1.7.0_79-b15), built on Apr 10 2015 12:36:16 by "java_re" with unknown MS VC++:1600
+
+time: Fri Nov 13 08:25:48 2015
+elapsed time: 0 seconds
+
